@@ -115,7 +115,7 @@ class AplicacionController{
             
             $aplicaciones = Aplicacion::fetchArray($sql);
     
-            echo json_encode($productos);
+            echo json_encode($aplicaciones);
         } catch (Exception $e) {
             echo json_encode([
                 'detalle' => $e->getMessage(),

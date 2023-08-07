@@ -48,4 +48,4 @@
         </table>
     </div>
 </div>
-<script src="<?= asset('./build/js/aplicaciones/index.js')  ?>"></script>
+<script src="<?= asset('./build/js/aplicaciones/index.js')?>"></script>

@@ -16,9 +16,9 @@ class Programador extends ActiveRecord{
     public function __construct($args =[])
     {
         $this->programador_id = $args['programador_id'] ?? null;
-        $this->programador_nombre = $args['programador_grado'] ?? '';
+        $this->programador_grado = $args['programador_grado'] ?? '';
         $this->programador_nombre = $args['programador_nombre'] ?? '';
-        $this->programador_precio = $args['programador_apellido'] ?? '';
+        $this->programador_apellido = $args['programador_apellido'] ?? '';
         $this->programador_situacion = $args['programador_situacion'] ?? '1';
     }
 

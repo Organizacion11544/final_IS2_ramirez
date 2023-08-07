@@ -6,6 +6,8 @@ module.exports = {
   entry: {
     'js/app' : './src/js/app.js',
     'js/inicio' : './src/js/inicio.js',
+    'js/programadores/index' : './src/js/programadores/index.js',
+    'js/aplicaciones/index' : './src/js/aplicaciones/index.js',
   },
   output: {
     filename: '[name].js',

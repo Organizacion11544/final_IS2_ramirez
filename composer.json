@@ -1,6 +1,6 @@
 {
-    "name": "mindef/base-mvc",
-    "description": "Proyecto MVC demo",
+    "name": "mindef/final-ramirez",
+    "description": "Proyecto final MVC",
     "type": "project",
     "config": {
         "platform-check": false

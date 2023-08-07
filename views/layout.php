@@ -30,13 +30,13 @@
                         <a class="nav-link" aria-current="page" href="/final_IS2_ramirez/programadores"><i class="bi bi-gear me-2"></i>Programadores</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/final_IS2_ramirez/asignacion_programadores"><i class="bi bi-gear me-2"></i>Asignaciones</a>
+                        <a class="nav-link" aria-current="page" href="/final_IS2_ramirez/asignaciones"><i class="bi bi-gear me-2"></i>Asignaciones</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="/final_IS2_ramirez/tareas"><i class="bi bi-gear me-2"></i>Tareas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="/final_IS2_ramirez/progreso_aplicacion"><i class="bi bi-gear me-2"></i>Progreso</a>
+                        <a class="nav-link" aria-current="page" href="/final_IS2_ramirez/progresos"><i class="bi bi-gear me-2"></i>Progreso</a>
                     </li>
                 </ul> 
                 <div class="col-lg-1 d-grid mb-lg-0 mb-2">
@@ -52,15 +52,14 @@
     <div class="progress fixed-bottom" style="height: 6px;">
         <div class="progress-bar progress-bar-animated bg-danger" id="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100"></div>
     </div>
-    <div class="container-fluid pt-5 mb-4" style="min-height: 85vh">
         
-        <?php echo $contenido; ?>
+        <?php echo $contenido;?>
     </div>
-    <div class="container-fluid " >
+    <div class="footer " >
         <div class="row justify-content-center text-center">
             <div class="col-12">
                 <p style="font-size:xx-small; font-weight: bold;">
-                        Comando de Informática y Tecnología, <?= date('Y') ?> &copy;
+                
                 </p>
             </div>
         </div>
